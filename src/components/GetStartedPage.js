@@ -145,8 +145,7 @@ return (
             <div className="check-group">
               <input 
                 type="checkbox" 
-                onChange={(e) => setIsChecked(e.target.checked)}
-                required/>
+                onChange={(e) => setIsChecked(e.target.checked)}/>
               <span>I aree to the <b>Terms & Conditions.</b></span><br/>
             </div>
             {checkboxError && <p className="warning-message">{checkboxError}</p>}
